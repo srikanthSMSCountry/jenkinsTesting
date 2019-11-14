@@ -17,7 +17,7 @@ public class NewTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com");
-		driver.findElement(By.xpath("//*[@id='ccccc']"));
+		//driver.findElement(By.xpath("//*[@id='ccccc']"));
 		Thread.sleep(5000);
 	}
 }
