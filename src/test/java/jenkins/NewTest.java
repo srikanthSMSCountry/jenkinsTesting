@@ -1,5 +1,6 @@
 package jenkins;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -16,6 +17,7 @@ public class NewTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com");
+		driver.findElement(By.xpath("//*[@id='ccccc']"));
 		Thread.sleep(5000);
 	}
 }
